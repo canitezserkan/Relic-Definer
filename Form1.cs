@@ -27,12 +27,12 @@ namespace RelicDefiner
 
         RelicEntities db = new RelicEntities(); //Form Load'ta tanımlarsak, Reset Button'ında bunu tekrar kullanamayız, o yüzden en tepede yarattık.
 
-        public List<v_RelicDetail> itemsFirstRelic { get; set; } //Kişiler view tablosunu database'ten aldık.
+        public List<v_RelicDetail> itemsFirstRelic { get; set; } //Relic view tablosunu database'ten aldık.
         public List<v_RelicDetail> itemsSecondRelic { get; set; }
         public List<v_RelicDetail> itemsThirdRelic { get; set; }
         public List<v_RelicDetail> itemsForthRelic { get; set; }
 
-        public List<v_RelicDetail> itemsFirstRelicForUnscanned { get; set; } //Kişiler view tablosunu database'ten aldık.
+        public List<v_RelicDetail> itemsFirstRelicForUnscanned { get; set; } //Relic view tablosunu database'ten aldık.
         public List<v_RelicDetail> itemsSecondRelicForUnscanned { get; set; }
         public List<v_RelicDetail> itemsThirdRelicForUnscanned { get; set; }
         public List<v_RelicDetail> itemsForthRelicForUnscanned { get; set; }
