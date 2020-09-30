@@ -583,6 +583,8 @@ namespace RelicDefiner
             {
                 clearMenu();
                 string relicName = clickedButton.Tag.ToString(); //Tıklanan buton'un daha önce atanan Tag'ini bulduk.
+                
+                //replace following if else with switch case                 
                 if (relicName == "Lith")
                 {
                     clickedButton.BackgroundImage = Properties.Resources.Lith_Clicked;
